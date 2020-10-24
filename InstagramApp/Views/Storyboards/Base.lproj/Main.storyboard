@@ -10,13 +10,12 @@
         <!--Tab Bar Controller-->
         <scene sceneID="cEi-nv-X3c">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pTt-4D-5tJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="zCa-Se-Zq7" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lKl-WZ-SKP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="b4s-bD-P0D" kind="relationship" relationship="viewControllers" id="h0r-yx-vqu"/>
@@ -26,6 +25,7 @@
                         <segue destination="4k5-t2-QSC" kind="relationship" relationship="viewControllers" id="4xE-TS-iKK"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pTt-4D-5tJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1191" y="-903"/>
         </scene>
@@ -33,7 +33,7 @@
         <scene sceneID="8EJ-rd-Gkv">
             <objects>
                 <navigationController id="vdu-Jp-V3N" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" id="pyL-V7-7JL"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass.circle.fill" catalog="system" id="pyL-V7-7JL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Xju-jC-DwB">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -117,7 +117,7 @@
         <scene sceneID="Z5f-kO-Ncr">
             <objects>
                 <navigationController id="pI1-53-kzw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell.fill" catalog="system" id="4tz-9J-vKm"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart.fill" catalog="system" id="4tz-9J-vKm"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3bR-1Z-inz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -196,9 +196,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell.fill" catalog="system" width="128" height="124"/>
-        <image name="globe" catalog="system" width="128" height="121"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="magnifyingglass.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="plus.app.fill" catalog="system" width="128" height="114"/>
     </resources>
